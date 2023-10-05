@@ -371,10 +371,10 @@ h2 {
     background: #ff0000;
 }
 
-.selling .card-img-top {
+/* .selling .card-img-top {
     width: 276px;
     height: 276px;
-}
+} */
 
 .selling .hide {
     display: none;
@@ -455,6 +455,12 @@ h2 {
     padding: 0;
     border-bottom: 1px solid #000;
     padding-bottom: 10px;
+}
+
+#more1, #more2, #more3, #more4 {
+    display: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.70);
 }
 
 /* ================================= BANNER 2  ================================= */
@@ -576,17 +582,137 @@ h2 {
 }
 
 
-
-
-
-
-
-#more1, #more2, #more3, #more4 {
-    display: none;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.70);
+/*============================= RESPONSIVE /*=============================*/
+/* HEADER */
+@media screen and (max-width: 1024px) {
+    .header-main .icon-llipse {
+        right: 10px;
+    }
 }
 
+/* CAROUSEL */
+@media screen and (max-width: 1024px) {
+    .carousel-control-next {
+        margin-right: 0;
+    }
+    .carousel-control-prev {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carousel-control-prev, .carousel-control-next {
+        width: 35px;
+        height: 35px;
+    }
+
+    .carousel-control-prev img, .carousel-control-next img {
+        width: 10px;
+        height: 15px;
+    }
+}
+
+/* TRENDING */
+
+@media screen and (max-width: 1024px) {
+    .card-body .heart {
+        margin-top: 160px;
+        margin-left: 190px
+    }
+
+    .card-body .eye {
+        margin-top: 192px;
+        margin-left: 190px
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-body .heart {
+        margin-top: 115px;
+        margin-left: 125px;
+        width: 20px;
+    }
+
+    .card-body .eye {
+        width: 20px;
+        margin-top: 138px;
+        margin-left: 125px
+    }
+
+    .card-body .new {
+        margin-top: 10px;
+        margin-left: 8px
+    }
+}
+
+/* BANNER1 */
+@media screen and (max-width: 1024px) {
+    .banner1.container {
+        padding: 0;
+    }
+
+    .banner1 img {
+        width: 100%;
+    }
+}
+
+/* SELLING */
+@media screen and (max-width: 1024px) {
+    .selling .carousel-item h1 {
+        top: 170px;
+    }
+
+    .selling .carousel-item p {
+        bottom: 210px;
+    }
+
+    .selling .carousel-item span {
+        bottom: 155px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .card-body .sale {
+        margin-top: 10px;
+        margin-left: 8px
+    }
+
+    .selling img {
+        width: 163.8px;
+    } 
+
+    .selling .carousel-item h1 {
+        top: 120px;
+    }
+
+    .selling .carousel-item p {
+        bottom: 135px;
+    }
+
+    .selling .carousel-item span {
+        bottom: 80px;
+    }
+
+    .footer-bottom-item .social {
+        flex-wrap: wrap;
+        gap: 15px 0;
+        margin-top: 25px;
+    }
+}
+
+/* FOOTER */
+@media screen and (max-width: 1024px) {
+    .footer-bottom-item .social {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-top-search input {
+        width: 300px;
+    }
+
+}
 
 
 
