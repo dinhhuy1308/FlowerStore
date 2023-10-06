@@ -1,0 +1,158 @@
+.container {
+    padding: 0;
+}
+
+/* BANNER */
+.banner-our-shop {
+    margin-top: 10px;
+    background: #FFE6F8;
+    height: 166px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 73px;
+}
+
+.banner-our-shop h3 {
+    font-size: 28px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.banner-our-shop ul {
+    display: flex;
+    gap: 25px;
+}
+
+.banner-our-shop ul li, .banner-our-shop ul li a {
+    font-size: 12px;
+}
+
+.banner-our-shop ul li:nth-child(2) {
+    color: #000;
+    font-weight: bold;
+    list-style-type: disc;
+}
+
+/* CONTENT */
+/* Content-top */
+.content-top,
+.content-top-left,
+.content-top-right,
+.content-top-right .filter {
+    display: flex;
+    align-items: center;
+}
+
+.content-top {
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+
+.content-top-left .search {
+    position: relative;
+}
+
+.content-top-left .search img {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content-top-left .search input {
+    width: 280px;
+    height: 44px;
+    border: 1px solid #D1D1D1;
+    background: #FFF;
+    padding: 14px;
+}
+
+.content-top-left .search input::placeholder {
+    font-size: 12px;
+    color: #000;
+}
+
+.content-top-left .search input:focus {
+    outline: none;
+}
+
+.content-top-left span {
+    color: #000;
+    font-size: 14px;
+    margin-left: 33px;
+}
+
+.content-top-right .filter {
+    height: 40px;
+    border: 1px solid #D1D1D1;
+    cursor: pointer;
+
+}
+
+.content-top-right .filter p {
+    padding: 10px 0;
+    padding-left: 17px;
+    color: #02150A;
+}
+
+.content-top-right .filter img {
+    padding: 10px 10px 10px 20px;
+}
+
+.content-top-right .sort {
+    width: 250px;
+    height: 40px;
+    border-radius: 0;
+    margin: 0 17px;
+}
+
+.content-top-right .sort:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.content-top-right .grid {
+    width: 40px;
+    height: 40px;
+    background: #FF4B85;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content-top-right .grid img {
+    border-radius: 2px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Content-main */
+
+.content-main .categories h3 {
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 24px;
+}
+
+.content-main .categories button {
+    padding: 0;
+    background: #fff;
+    border: none;
+    margin-bottom: 11px;
+    transition: all 0.3s;
+}
+
+.content-main .categories button:hover {
+    color: #FF4B85;
+}
+
+.content-main .categories .active {
+    color: #FF4B85;
+
+}
+
+
+

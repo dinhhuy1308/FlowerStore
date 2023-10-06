@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/ourShop.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-top">
+                <div class="header-contact">
+                    <div class="find-us">
+                        <a href="">
+                            <img src="./icons/find-us.svg" alt="">
+                            <span>Find Us</span>
+                        </a>
+                    </div>
+                    <div class="contact">
+                        <a href="">
+                            <img src="./icons/Phone.svg" alt="">
+                            <span>Contact</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="header-language">
+                    <a href="">
+                        <img src="./icons/globe.svg" alt="">
+                        <span>Language</span>
+                        <img src="./icons/chevron-down.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="search">
+                    <a href="#"><img src="./icons/search.svg" alt=""></a>
+                </div>
+                <h2>florial</h2>
+                <div class="">
+                    <a href="#"><img src="./icons/user.svg" alt=""></a>
+                    <a href="#"><img src="./icons/heart.svg" alt=""></a>
+                    <a href="#"><img class="icon-shopping" src="./icons/shopping-bag.svg" alt=""></a>
+                    <a href="#"><img class="icon-llipse" src="./icons/Ellipse 82.svg" alt=""></a>
+                </div>
+            </div>
+            <div class="header-bottom">
+                <a class="active" href="./index.html">Home</a>
+                <a href="./outShop.html">Our Shop</a>
+                <a href="#">Products</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact us</a>
+            </div>
+        </div>
+    </header>
+    <section class="banner-our-shop container">
+        <h3>Our Shop</h3>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>Our Shop</li>
+        </ul>
+    </section>
+    <section class="content-our-shop container">
+        <div class="content-top">
+            <div class="content-top-left">
+                <div class="search">
+                    <input type="search" placeholder="Search your key">
+                    <img src="./icons/search.svg" alt="">
+                </div>
+                <span>Showing 9 of 20 results</span>
+            </div>
+            <div class="content-top-right">
+                <div class="filter">
+                    <p>Filter</p>
+                    <img src="./icons/filter.svg" alt="">
+                </div>
+                <select class="form-select sort" aria-label="Default select example">
+                    <option selected>Default Sorting</option>
+                    <option value="1">Ascending Sorting</option>
+                    <option value="2">Descending Sorting</option>
+                </select>
+                <div class="grid">
+                    <img src="./icons/grid.svg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <div class="content-main">
+            <div class="row">
+                <div class="col-3 categories">
+                    <h3>Catelogies</h3>
+                    <button class="btn-categories d-block active" onclick="openCity('wedding')">Wedding flowers</button>
+                    <button class="btn-categories d-block" onclick="openCity('birthday')">Birthday flowers</button>
+                    <button class="btn-categories d-block" onclick="openCity('graduation')">Graduation flowers</button>
+                </div>
+                <div class="col-9">
+                    <div class="row flower-categories" id="wedding">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-1.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 14.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="sale">Sale</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 13.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-3.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-4.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-1.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-2.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row flower-categories" id="birthday" style="display:none">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="sale">Sale</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 12.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-1.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="sale">Sale</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 13.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Flower-tredding-2.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row flower-categories" id="graduation" style="display:none">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="new">New</p>
+                                    <img class="heart" src="./icons/heart-pink.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 14.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header p-0">
+                                    <span>Kind of Flowers</span>
+                                    <h4>Name of Lovely Flowers</h4>
+                                </div>
+                                <div class="card-body p-0">
+                                    <p class="sale">Sale</p>
+                                    <img class="heart" src="./icons/heart-full.svg" alt="">
+                                    <img class="eye" src="./icons/eye.svg" alt="">
+                                    <img class="card-img-top" src="./imgs/Rectangle 13.png" alt="">
+                                    <h4>$160</h4>
+                                    <div class="my-rating"></div>
+                                </div>
+                                <div class="card-footer p-0">
+                                    <button>Add to cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container">
+        <div class="footer-top">
+            <div class="footer-top-content">
+                <h3>Sign Up To Our Newsletter</h3>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+            </div>
+            <div class="footer-top-search">
+                <input type="text" placeholder="Enter your email here">
+                <img src="./icons/arrow-right.svg" alt="">
+                
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="col-6 col-sm-3 footer-bottom-item">
+                    <h2>Florial</h2>
+                    <p>Goddard Hall</p>
+                    <p>80Washington Square</p>
+                    <p>E,New York, NY 10003, USA</p>
+                    <div class="social">
+                        <a href="#"><img src="./icons/facebook.svg" alt=""></a>
+                        <a href="#"><img src="./icons/twitter.svg" alt=""></a>
+                        <a href="#"><img src="./icons/instagram.svg" alt=""></a>
+                        <a href="#"><img src="./icons/linkedin.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-6 col-sm-3 footer-bottom-item">
+                    <h3>Our Service</h3>
+                    <ul>
+                        <li>Flower Care</li>
+                        <li>Help Center</li>
+                        <li>Shipping</li>
+                        <li>Term of Use</li>
+                        <li>Accessibility</li>
+                        <li>Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-3 footer-bottom-item">
+                    <h3>Location</h3>
+                    <ul>
+                        <li>Los Angeles</li>
+                        <li>San Francisco</li>
+                        <li>New York City</li>
+                        <li>Dallas</li>
+                        <li>Chicago</li>
+                        <li>Washington DC</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-sm-3 footer-bottom-item">
+                    <h3>About us</h3>
+                    <ul>
+                        <li>My Account</li>
+                        <li>FAQ</li>
+                        <li>Check Order Status</li>
+                        <li>Store Locator</li>
+                        <li>Contact Us</li>
+                        <li>Gift</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2022 Fiore Themes.</p>
+            <div class="footer-copyright-content">
+                <p>Privacy Policy</p>
+                <p>Cookie Policy</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./js/changeHeart.js"></script>
+
+    <script>
+        function openCity(cityName) {
+            var i;
+            var x = document.querySelectorAll(".flower-categories");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+
+            var buttons = document.querySelectorAll(".btn-categories");
+            for (i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active");
+            }
+
+            document.getElementById(cityName).style.display = "flex";
+            event.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+
+</html>

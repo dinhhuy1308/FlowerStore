@@ -21,6 +21,7 @@ time, mark, audio, video {
     font-family: 'Marcellus', serif;
     color: #000;
     font-weight: 400;
+    line-height: normal;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -67,6 +68,10 @@ h2 {
 
 /* ================================= HEADER ================================= */
 /* Header-top */
+.header {
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.50);
+}
+
 .header img {
     width: 24px;
     height: 24px;
@@ -175,6 +180,10 @@ h2 {
 .carousel-indicators [data-bs-target].active {
     width: 41px;
     border-radius: 12px;
+}
+
+.slider .carousel {
+    margin-top: 0;
 }
 
 
